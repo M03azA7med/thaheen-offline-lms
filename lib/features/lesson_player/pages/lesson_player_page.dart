@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:thaheen_assessment/core/constants/app_strings.dart';
 import 'package:thaheen_assessment/core/theme/app_colors.dart';
-import 'package:thaheen_assessment/presentation/lesson_player/cubit/lesson_player_cubit.dart';
-import 'package:thaheen_assessment/presentation/lesson_player/cubit/lesson_player_state.dart';
-import 'package:thaheen_assessment/presentation/lesson_player/widgets/next_lesson_button.dart';
-import 'package:thaheen_assessment/presentation/lesson_player/widgets/video_controls.dart';
-import 'package:thaheen_assessment/presentation/lesson_player/widgets/video_player_view.dart';
+import 'package:thaheen_assessment/features/lesson_player/cubit/lesson_player_cubit.dart';
+import 'package:thaheen_assessment/features/lesson_player/cubit/lesson_player_state.dart';
+import 'package:thaheen_assessment/features/lesson_player/widgets/next_lesson_button.dart';
+import 'package:thaheen_assessment/features/lesson_player/widgets/video_controls.dart';
+import 'package:thaheen_assessment/features/lesson_player/widgets/video_player_view.dart';
 
 class LessonPlayerPage extends StatefulWidget {
   final String courseId;

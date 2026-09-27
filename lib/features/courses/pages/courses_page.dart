@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:thaheen_assessment/core/constants/app_strings.dart';
 import 'package:thaheen_assessment/core/theme/app_colors.dart';
-import 'package:thaheen_assessment/presentation/courses/cubit/courses_cubit.dart';
-import 'package:thaheen_assessment/presentation/courses/cubit/courses_state.dart';
-import 'package:thaheen_assessment/presentation/courses/widgets/continue_watching_card.dart';
-import 'package:thaheen_assessment/presentation/courses/widgets/course_card.dart';
+import 'package:thaheen_assessment/features/courses/cubit/courses_cubit.dart';
+import 'package:thaheen_assessment/features/courses/cubit/courses_state.dart';
+import 'package:thaheen_assessment/features/courses/widgets/continue_watching_card.dart';
+import 'package:thaheen_assessment/features/courses/widgets/course_card.dart';
 
 class CoursesPage extends StatefulWidget {
   const CoursesPage({super.key});
